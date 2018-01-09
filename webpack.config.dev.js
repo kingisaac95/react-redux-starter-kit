@@ -17,7 +17,7 @@ module.exports = {
   },
   module: {
     loaders: [
-        { test: /(\.css)$/, loaders: ['style-loader', 'css-loader'] },
+        { test: /\.(css|scss)$/, loaders: ['style-loader', 'css-loader'] },
         { test: /\.(js|jsx)$/, include: path.join(__dirname, 'client'),loader: 'babel-loader', query: { presets: ['es2015', 'react'] } },
         { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader' },
         { test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000' },

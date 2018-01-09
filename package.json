@@ -1,7 +1,7 @@
 {
-  "name": "reactstaterkit",
+  "name": "react-redux-stater-kit",
   "version": "1.0.0",
-  "description": "a simple react starter kit to help hit the ground running",
+  "description": "React/Redux starter built by @kingisaac95",
   "main": "index.js",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/kingisaac95/react-stater-kit.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "@kingisaac95",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kingisaac95/react-stater-kit/issues"
@@ -33,6 +33,7 @@
     "html-webpack-plugin": "2.29.0",
     "prop-types": "15.5.10",
     "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-router": "4.1.1",
     "react-router-dom": "^4.1.1",
     "webpack": "3.0.0"
@@ -61,7 +62,6 @@
     "npm-run-all": "4.0.2",
     "nyc": "11.0.3",
     "open": "0.0.5",
-    "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
     "style-loader": "0.18.2",
     "url-loader": "0.5.9",

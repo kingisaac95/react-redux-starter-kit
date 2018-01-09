@@ -1,19 +1,16 @@
-import React from "react";
-import { NavigationBar } from "./NavigationBar/NavigationBar.jsx";
-import { MainComponent } from "../components/Main/MainComponent.jsx";
-import Footer from "./Footer/Footer.jsx";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-const App = () => {
-  const styles = {
-    padding: '10px 40px'
-  }
-    return(
-      <div style={styles}>
-        <NavigationBar />
-        <MainComponent />
-        <Footer />
+export default class App extends Component {
+  render(){
+    return (
+      <div>
+        { this.props.children }
       </div>
     );
-};
+  }
+}
 
-export default App;
+App.propTypes = {
+  children: PropTypes.object.isRequired
+};

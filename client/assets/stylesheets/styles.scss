@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.page-404 {
+  background-color: #F1F7F7;
+}
+
+.img-404-wrapper {
+  height: 250px;
+}
+
+.img-404-wrapper > img {
+  height: 100%;
+}
+
+.link-404{
+  color: #c4995b;
+}
+
+.link-404:hover {
+  color: #565656;
+  text-decoration: none;
+}
+
+.page-404-wrapper {
+  height: 100px;
+}
+
+.page-404-wrapper > a > img {
+  height: 100%;
+}
+
+.full-page {
+  height: 100vh;
+}
