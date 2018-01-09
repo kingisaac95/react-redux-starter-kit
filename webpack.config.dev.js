@@ -5,13 +5,13 @@ const webpack = require('webpack');
 module.exports = {
   devtool: 'inline-source-map',
   entry: [
-    'eventsource-polyfill', // necessary for hot reloading with IE
-    'webpack-hot-middleware/client?reload=true', //note that it reloads the page if hot module reloading fails.
+    'eventsource-polyfill',
+    'webpack-hot-middleware/client?reload=true',
     path.resolve(__dirname, 'client/index')
   ],
   target: 'web',
   output: {
-    path: path.join(__dirname,'./dist/'), // Note: Physical files are only output by the production build task `npm run build`.
+    path: path.join(__dirname,'./dist/'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -34,7 +34,6 @@ module.exports = {
     new webpack.NoEmitOnErrorsPlugin()
   ],
   resolve: {
-    // you can now require('file') instead of require('file.coffee')
     extensions: ['.js', '.json', '.jsx']
   }
 };
