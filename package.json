@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kingisaac95/react-stater-kit.git"
+    "url": "git+https://github.com/kingisaac95/react-redux-stater-kit.git"
   },
   "keywords": [],
   "author": "@kingisaac95",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kingisaac95/react-stater-kit/issues"
+    "url": "https://github.com/kingisaac95/react-redux-stater-kit/issues"
   },
-  "homepage": "https://github.com/kingisaac95/react-stater-kit#readme",
+  "homepage": "https://github.com/kingisaac95/react-redux-stater-kit#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "babel-cli": "6.24.1",

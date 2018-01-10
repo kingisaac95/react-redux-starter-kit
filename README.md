@@ -24,10 +24,10 @@ A simple react redux starter kit to help hit the ground running
 
 ```
 # Get the app locally
-git clone https://github.com/kingisaac95/react-stater-kit.git
+git clone https://github.com/kingisaac95/react-redux-stater-kit.git
 
 # Change directory
-cd react-stater-kit
+cd react-redux-stater-kit
 
 # Install Package dependencies
 npm install
@@ -40,7 +40,7 @@ npm run test
 ```
 
 ## Issues?
-Submit your issue [here](https://github.com/kingisaac95/react-stater-kit/issues/new)
+Submit your issue [here](https://github.com/kingisaac95/react-redux-stater-kit/issues/new)
 
 ## How can I thank you?
 
