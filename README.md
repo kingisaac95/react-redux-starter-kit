@@ -1,6 +1,20 @@
-# React Starter Kit
+# React Redux Starter Kit
 
-A simple react starter kit to help hit the ground running
+A simple react redux starter kit to help hit the ground running
+
+## Technologies
+
+* JavaScript(ES6)
+* React
+* Redux
+* React router 3
+* ExpressJS
+
+## Pages
+
+* Home
+* About
+* Contact Us
 
 <img width="1440" alt="screen shot 2018-01-10 at 1 15 10 pm" src="https://user-images.githubusercontent.com/26261917/34772515-720fabd6-f608-11e7-979e-20c0c42a5e06.png">
 
