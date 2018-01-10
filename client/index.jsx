@@ -5,7 +5,7 @@ import { Router, browserHistory } from 'react-router';
 import routes from './routes/Routes';
 import { storeConfig } from './store/store.config';
 import App from './components/App.jsx';
-import './assets/styles.css';
+import './assets/stylesheets/styles.scss';
 
 const store = storeConfig();
 

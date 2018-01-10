@@ -1,3 +1,5 @@
+$textColor: #747474;
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -9,7 +11,7 @@ html {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  color: #ffffff;
+  color: $textColor;
 }
 
 .page-404 {
@@ -25,12 +27,19 @@ html {
 }
 
 .link-404{
-  color: #c4995b;
+  color: $textColor;
 }
 
 .link-404:hover {
   color: #565656;
   text-decoration: none;
+}
+
+.page-404 {
+  background-color: #F1F7F7;
+  margin-top: 50px;
+  padding: 50px;
+  color: $textColor;
 }
 
 .page-404-wrapper {
@@ -39,6 +48,10 @@ html {
 
 .page-404-wrapper > a > img {
   height: 100%;
+}
+
+.title-404 {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .full-page {

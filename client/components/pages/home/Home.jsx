@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import NavBar from '../../common/NavBar.jsx';
+import Footer from '../../common/Footer.jsx';
 
-export class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
-      <div className="row">
-        <h3>Hello World!! You're home.</h3>
-      </div>
+      <React.Fragment>
+        <NavBar />
+        <div className="container">
+          <h3>Hello World!! You're home.</h3>
+        </div>
+        <Footer />
+      </React.Fragment>
     );
   }
 }

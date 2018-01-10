@@ -8,7 +8,7 @@ import Page404 from '../components/common/Page404.jsx';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={HomeContainer}/>
+    <IndexRoute component={Home}/>
     <Route path="about-us" component={About} />
     <Route path="contact-us" component={Contact} />
     <Route path="*" component={Page404}/>

@@ -6,19 +6,10 @@ class Page404 extends Component {
   render() {
     return (
       <div className="full-page text-center">
-        <div className="page-404-wrapper">
-          <Link to="/">
-            <img src={require('../../assets/img/404.png')} alt="page_not_found"/>
-          </Link>
-        </div>
         <div className="row">
-          <div
-            className={
-              `col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 page-404`
-            }
-          >
+          <div className="col-xs-8 col-xs-offset-2 page-404">
             <div className="img-404-wrapper">
-              <img src={require('../../assets/images/404.png')} alt="logo"/>
+              <img src={require('../../assets/img/404.png')} alt="logo"/>
             </div>
             <div className="space-20" />
             <h2 className="title-404">Did you miss your way?</h2>
